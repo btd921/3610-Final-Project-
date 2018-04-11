@@ -3,52 +3,10 @@
   <body>
     <!--Header-->
     <h1 align="center">Fantasy Scout</h1>
+    
+      <app-nav-bar></app-nav-bar>
 
-    <!--Grid-->
-    <div class="grid">
-
-      <!--Player Search Element-->
-      <div class="playerS">
-        <form>
-          <h2>Search for a Player</h2>
-          First name:<br>
-          <input type="text" name="firstname"><br>
-          Last name:<br>
-          <input type="text" name="lastname"><br>
-          <input type="submit" value="Submit">
-        </form>
-      </div>
-
-      <!--Player Information Element-->
-      <div class="playerI">
-        <h2>Player Details</h2>
-      </div>
-
-      <!--Team Search Element-->
-      <div class="teamS">
-        <form>
-          <h2>Search for a Team</h2>
-          Team Name (eg. 'New York Jets'):<br>
-          <input type="text" name="firstname"><br>
-          <input type="submit" value="Submit">
-        </form>
-      </div>
-
-      <!--Team Information Element-->
-      <div class="teamI">
-        <h2>Team Details</h2>
-      </div>
-
-      <!--Position Search Element-->
-      <div class="positionS">
-        <h2>Position Links</h2>
-      </div>
-
-      <!--Position Information Element-->
-      <div class="positionI">
-        <h2>Position Details</h2>
-      </div>
-
-    </div>
+      <router-outlet></router-outlet>
+    
   </body>
 </html>

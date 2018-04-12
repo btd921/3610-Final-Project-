@@ -8,15 +8,18 @@
 .playerS {
     grid-row: 1 / span 1;
     grid-column: 1 / span 1;
+    padding: 20px;
 }
 
 .playerI {
     grid-row: 1 / span 1;
     grid-column: 2 / span 1;
+    padding: 20px;
 }
 .simPlayers {
     grid-row: 1 / span 1;
     grid-column: 3 / span 1;
+    padding: 20px;
 }
 
 h2 {

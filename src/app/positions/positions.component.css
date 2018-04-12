@@ -15,11 +15,13 @@
     grid-row: 1 / span 1;
     grid-column: 2 / span 1;
     padding: 20px;
+    font-style: oblique;  
 }
 .simPositions {
     grid-row: 1 / span 1;
     grid-column: 3 / span 1;
     padding: 20px;
+    font-style: oblique;
 }
 
 h2{

@@ -1,0 +1,14 @@
+nav{
+    text-align: right;
+    text-transform: uppercase;
+    background-color: black;
+}
+nav a{
+    color:red;
+    font-weight: 1000;
+    margin: 15px;
+}
+*{
+    background-color: black;
+    border-top: black;
+}

@@ -1,3 +1,9 @@
+
+h1{
+    text-align: left;
+    color: red;
+    background-color: black;
+}
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;

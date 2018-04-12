@@ -1,0 +1,25 @@
+h2{
+    font: bold;
+    color: black;
+    font-weight: 700;
+    font-size: x-large;
+    font-style: oblique;
+}
+h3{
+    font: bold;
+    color: black;
+    font-weight: 700;
+    font-style: oblique;
+    font-size: initial;
+}
+p{
+    text-align: left;
+    font-weight: 700;
+    font: bold;
+    color: black;    
+}
+form{
+    font-style: oblique;
+    font: bold;
+    color: black;
+}

@@ -21,20 +21,24 @@
 
 h2{
     font: bold;
-    color: black;
+    color: darkslategrey;
     font-weight: 700;
     font-size: x-large;
 }
+h3{
+    font:  bold;
+    color: darkslategrey;
+    font-weight: 350;
+    font-size: initial;
+}
 p{
     text-align: left;
-    font-weight: 700;
+    font-weight: 300;
     font: bold;
     color: black;
-    font-style: oblique;
     font-size: initial;
 }
 form{
-    font-style: oblique;
     font: bold;
     color: black;
 }

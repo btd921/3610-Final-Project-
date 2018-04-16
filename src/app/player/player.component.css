@@ -18,19 +18,27 @@
     grid-row: 1 / span 1;
     grid-column: 3 / span 1;
 }
-
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 0px 20px;
+}
 h2 {
     font: bold;
-    color: black;
+    color: darkslategrey;;
     font-weight: 700;
     font-size: x-large;
-    font-style: oblique;
 }
 h3{
-    font: bold;
+    font:  bold;
+    color: darkslategrey;
+    font-weight: 350;
+    font-size: initial;
+}
+h4{
     color: black;
-    font-weight: 700;
-    font-style: oblique;
+    font-weight: 350;
     font-size: initial;
 }
 p{
@@ -40,7 +48,6 @@ p{
     color: black;    
 }
 form{
-    font-style: oblique;
     font: bold;
     color: black;
 }

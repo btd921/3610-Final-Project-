@@ -25,6 +25,7 @@
 	color: #fff;
 	text-decoration: none;
 	border-bottom: 1px solid gray;
+	min-height: 55px;
 }
 
 .nav a:link { color: white; }
@@ -40,6 +41,7 @@
 {
 	color: white;
 	background-color: rgb(204,85,0);
+	background-size: 15px 10px
 }
 
 .nav a:active
@@ -48,7 +50,7 @@
 	background-color: rgb(204,85,0);
 }
 
-.nav-bar { padding: 1em 2em; }
+
 
 .nav li
 	{
@@ -58,7 +60,6 @@
 	
 	.nav a
 	{
-		display: inline;
-		padding: 0;
-		border-bottom: 0;
+		-webkit-transition-duration: 0.4s; /* Safari */
+		transition-duration: 0.4s;
 	}

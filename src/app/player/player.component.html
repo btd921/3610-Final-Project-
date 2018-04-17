@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://bootswatch.com/4/superhero/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
 <!--Player Search Element-->
 <div class="grid">
 
@@ -14,35 +24,77 @@
       <input type="submit" value="Submit">
     </form>
   </div>
-
+  
   <!--Player Information Element-->
   <div class="playerI">
     <h2>Player Search Results</h2>
     <h3>First Name: </h3>
     <h3>Last Name:</h3>
     <h3>Position:</h3>
+    <h4> Stats</h4>
      <div class = "grid2">
         <div class="RushStats">
-           <h4>Rush Attempts:</h4>
-           <h4>Rush Yards:</h4>
-           <h4>Rush TD's:</h4>
+           <p>Rush Attempts:</p>
+           <p>Rush Yards:</p>
+           <p>Rush TD's:</p>
         </div>
         <div class="PassStats">
-            <h4>Pass Attempts:</h4>
-            <h4>Pass Completions:</h4>
-            <h4>Pass Yards:</h4>
-            <h4>Pass TD's:</h4>
-            <h4>Interceptions:</h4>
+            <p>Pass Attempts:</p>
+            <p>Pass Completions:</p>
+            <p>Pass Yards:</p>
+            <p>Pass TD's:</p>
+            <p>Interceptions:</p>
          </div>
 
   </div>
     <h3></h3>
   </div>
 
-  <!--Similar Players-->
-  <div class="simPlayers">
-    <h2>Related Players</h2>
-    <h3>Player Name:</h3>
-  </div>
+ 
   
 </div>
+
+<h2> Top Related Players</h2>
+ <!--Similar Players-->
+ <table class="table .table-bordered">
+  <thead>
+      <tr>
+          <th>Row</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Position</th>
+      </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>{{player.firstname}}</td>
+      <td>{{player.lastname}}</td>
+      <td>{{player.position}}</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>{{player.firstname}}</td>
+      <td>{{player.lastname}}</td>
+      <td>{{player.position}}</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>{{player.firstname}}</td>
+      <td>{{player.lastname}}</td>
+      <td>{{player.position}}</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>{{player.firstname}}</td>
+      <td>{{player.lastname}}</td>
+      <td>{{player.position}}</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>{{player.firstname}}</td>
+      <td>{{player.lastname}}</td>
+      <td>{{player.position}}</td>
+  </table>
+
+  </body>

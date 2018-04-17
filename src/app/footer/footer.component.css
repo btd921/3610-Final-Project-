@@ -4,7 +4,7 @@ div{
     font-weight: 700;
     color: red;
     size: 7em;
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
@@ -13,6 +13,9 @@ div{
 
 p{ 
     text-align: center;
-    color: black;
+    color: white;
     font: bold;
+}
+form{
+    background: darkslategrey;
 }

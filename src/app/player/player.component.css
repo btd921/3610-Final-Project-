@@ -1,6 +1,6 @@
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     margin: 0px 20px;
 }
@@ -8,46 +8,42 @@
 .playerS {
     grid-row: 1 / span 1;
     grid-column: 1 / span 1;
+    padding: 20px;
 }
 
 .playerI {
     grid-row: 1 / span 1;
     grid-column: 2 / span 1;
+    padding: 20px;
 }
 .simPlayers {
     grid-row: 1 / span 1;
     grid-column: 3 / span 1;
+    padding: 20px;
 }
-.grid2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin: 0px 20px;
-}
+
 h2 {
     font: bold;
-    color: darkslategrey;;
+    color: rgb(204,85,0);
     font-weight: 700;
     font-size: x-large;
 }
 h3{
-    font:  bold;
-    color: darkslategrey;
-    font-weight: 350;
+    font: bold;
+    color: white;
+    font-weight: 700;
     font-size: initial;
 }
 h4{
-    color: black;
-    font-weight: 350;
-    font-size: initial;
+    text-align: center;
 }
 p{
     text-align: left;
     font-weight: 700;
     font: bold;
-    color: black;    
+    color: white;    
 }
 form{
     font: bold;
-    color: black;
+    color: white;
 }

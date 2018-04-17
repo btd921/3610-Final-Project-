@@ -1,18 +1,21 @@
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     margin: 0px 20px;
+    text-align: center;
 }
 
 .positionS {
     grid-row: 1 / span 1;
     grid-column: 1 / span 1;
+    padding: 20px;
 }
 
 .positionI {
-    grid-row: 1 / span 1;
-    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+    padding: 20px;
 }
 .simPositions {
     grid-row: 1 / span 1;
@@ -21,24 +24,27 @@
 
 h2{
     font: bold;
-    color: darkslategrey;
+    color: rgb(204,85,0);
     font-weight: 700;
     font-size: x-large;
 }
 h3{
     font:  bold;
-    color: darkslategrey;
+    color: white;
     font-weight: 350;
     font-size: initial;
 }
 p{
-    text-align: left;
+    text-align: center;
     font-weight: 300;
     font: bold;
-    color: black;
+    color: white;
     font-size: initial;
+}
+table {
+    text-align: left;
 }
 form{
     font: bold;
-    color: black;
+    color: white;
 }

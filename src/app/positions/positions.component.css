@@ -44,6 +44,19 @@ p{
 table {
     text-align: left;
 }
+
+idcol {
+    width: 25px
+}
+namecol {
+    width: 75px
+}
+abcol {
+    width: 25px
+}
+desccol {
+    width: 1650px
+}
 form{
     font: bold;
     color: white;

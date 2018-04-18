@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://bootswatch.com/4/superhero/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<!--Team Search Element-->
+  <div class="grid">
+
+    <div class="teamS">
+      <h2>Teams</h2>
+      <ul class="team">
+        <li *ngFor="let team of teams" [class.selected]="team === selectedTeam" (click)="onSelect(team)">
+          <span>{{team.name}}</span> {{team.website}}
+        </li>
+      </ul>
+    </div>
+  
+  <!--Team Information Element-->
+    <div class="teamI">
+      <h2>Team Search Results</h2>
+    </div>
+
+  </div>
+</body>

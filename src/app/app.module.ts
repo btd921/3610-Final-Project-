@@ -9,6 +9,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home.component';
 import { AppRouterModule } from './router/router.module';
 import { FooterComponent } from './footer/footer.component';
+import { TeamComponent } from './team/team.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     PlayerComponent,
     NavBarComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,

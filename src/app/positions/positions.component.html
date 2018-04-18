@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <link rel="stylesheet" href="https://bootswatch.com/4/superhero/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
 <!--Position Search Element-->
 <div class="grid">
   
@@ -10,21 +22,87 @@
          to have their breakout season!
       </p>
       Season:<br>
-      <input type="text" name="season"><br>
+      <select>
+        <option value="" selected disabled hidden>Choose here</option>
+        <option value="2010">2010</option>
+        <option value="2011">2011</option>
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+      </select> <br>
       Week:<br>
-      <input type="text" name="week"><br>
-      <input type="button" value="Rushing">
-      <input type="button" value="Passing">
-      <input type="button" value="Receiving"><br>
-      <br><input type="submit" value="Submit">
+      <select>
+        <option value="" selected disabled hidden>Choose here</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+      </select> <br>
+      <br>
+      Position:<br>
+      <select>
+          <option value="" selected disabled hidden>Choose here</option>
+          <option value="quarterback">Quarterback</option>
+          <option value="runningback">Running Back</option>
+          <option value="widereceiver">Wide Receiver</option>
+      </select>
+
+      <br><br><input type="submit" value="Submit">
     </form>
   </div>
-<!--Positon info-->
-  <div class="positionI">
-      <h2>Position Search Results</h2>
-    </div>
-  <div class="simPositions">
-    <h2> Related Positions</h2>
-  </div>
+    <h2> Top 5 Players</h2>
+    <!--Similar Positions-->
+    <table class="table">
+     <thead>
+         <tr>
+             <th>Row</th>
+             <th>First Name</th>
+             <th>Last Name</th>
+         </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>1</td>
+         <td>{{player.firstname}}</td>
+         <td>{{player.lastname}}</td>
+       </tr>
+       <tr>
+         <td>2</td>
+         <td>{{player.firstname}}</td>
+         <td>{{player.lastname}}</td>
+       </tr>
+       <tr>
+        <td>3</td>
+        <td>{{player.firstname}}</td>
+        <td>{{player.lastname}}</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>{{player.firstname}}</td>
+        <td>{{player.lastname}}</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>{{player.firstname}}</td>
+        <td>{{player.lastname}}</td>
+      </tr>
+   </tbody>
+   </table>
 
-</div>
+  </div>
+</body>
